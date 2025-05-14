@@ -1,0 +1,94 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 35em;
+}
+.contact-box{
+    display:flex;
+    justify-content: space-around;
+    height: 30em;
+    width: 74em;
+    /* background-color: blueviolet; */
+}
+.contact-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    border:2px solid #113548;
+    border-radius: 25px;
+    height: 27em;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:1em;
+    background-color: #113548;
+    color: white;
+    box-shadow: -6px 4px 6px 3px black,6px -4px 6px 1px black;
+}
+.form-field input,select,textarea{
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 2px 2px 1px black;
+}
+.form-field label{
+    font-weight: 500;
+}
+.form-button{
+    width: 9em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+.form-button button{
+    width: 8em;
+    height: 2.5em;
+    border-radius: 7px;
+    box-shadow: 3px 2px 2px 1px black;
+    background-color: #021a27;
+    color: white;
+    transition: all .5s ease-in 0s;
+}
+.form-button button:hover{
+    transform:scale(1.1);
+}
+
+
+.contact-details{
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: .9em;
+    border:2px solid #113548;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 1px black;
+    transition: all .7s ease-in 0s;
+}
+.contact-details:hover{
+    transform:scale(1.05);
+    box-shadow: 2px 2px 4px 1px black,-2px -2px 4px 1px black;
+}
+.contact-info{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25em;
+}
+.map{
+    border: 2px solid #113548;
+}
+.find-us{
+    display: flex;
+}

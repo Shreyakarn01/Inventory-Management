@@ -1,0 +1,41 @@
+.admin-drop-down{
+    position: absolute;
+    top:8%;
+    right: 17%;
+    border: 2px solid #113548;
+    height: 15em;
+    width: 14em;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    color: black;
+    z-index: 2;
+}
+.admin-upper{
+    /* border: 2px solid rebeccapurple; */
+    width: 10em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-lower{
+    /* border: 2px solid black; */
+    width: 10em;
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-lower-list{
+    /* border:2px solid green; */
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+}
+.admin-lower-list a{
+    text-decoration: none;
+}

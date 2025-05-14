@@ -1,0 +1,60 @@
+.admin{
+    display: flex;
+    /* border:2px solid red; */
+    height: 63rem;
+}
+.admin-leftBar{
+    display:flex;
+    flex-direction: column;
+    background-color: #113548;
+    /* border: 2px solid blue; */
+}
+.admin-logo{
+    height:3.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    color:white;
+    background-color: #113548;
+
+}
+.admin-right{
+    display: flex;
+    flex-direction: column;
+    width: 80em;
+    /* border: 2px solid green; */
+}
+.admin-topbar{
+    height:4.5em;
+    /* border: 2px solid rgb(224, 10, 195); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    background-color: #113548;
+}
+.admin-profile-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 4em;
+    height: 2em;
+}
+.admin-pic{
+    border: 2px solid black;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+.admin-pic img{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.admin-content{
+    background-color: beige;
+    height: 60em;
+}

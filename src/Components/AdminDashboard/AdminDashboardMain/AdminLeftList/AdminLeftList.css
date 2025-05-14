@@ -1,0 +1,24 @@
+.admin-left-list{
+    /* border:2px solid rgb(41, 5, 104); */
+    height:32.5em;
+    width: 14em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    background-color: #113548;
+}
+.admin-left-list-items i{
+    color: white;
+}
+.admin-left-list-items a{
+    text-decoration: none;
+    color: white;
+}
+.admin-left-list-items{
+    /* border: 2px solid gray; */
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

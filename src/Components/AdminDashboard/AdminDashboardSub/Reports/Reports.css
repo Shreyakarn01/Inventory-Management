@@ -1,0 +1,62 @@
+.dashboard-graphs-charts{
+    /* border: 2px solid brown; */
+    height: 40em;
+    width: 65em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 4em;
+    /* background-color: aliceblue; */
+}
+
+.dashboard-line-chart{
+    /* border: 2px solid pink; */
+    height: 20em;
+    width:60em;
+    margin: auto;
+}
+
+
+.dashboard-lower-charts{
+    /* border:2px solid green; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15em;
+
+}
+
+.dashboard-piechart{
+    /* border: 2px solid rgb(223, 10, 10); */
+    width:30em;
+    height: 14em;
+}
+.dashboard-barchart{
+    /* border:2px solid rgb(23, 5, 124); */
+    width:30em;
+    height: 14em;
+}
+
+.dashboard-quick-links{
+    /* border: 2px solid rgb(13, 14, 13); */
+    height: 5em;
+    width: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-quick-links h3{
+    color: rgb(143, 65, 143);
+}
+
+.dashboard-quick-links button{
+    color: white;
+    background-color: #113548;
+    box-shadow: 3px 2px 2px 1px black;
+    transition: all .5s ease-in 0s;
+}
+
+.dashboard-quick-links button:hover{
+    transform:scale(1.07);
+}
